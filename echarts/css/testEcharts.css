@@ -50,8 +50,9 @@
     min-height: 40rem;
 }
 
-/*_echarts style
-.echarts ._pie_chart1 {
-    min-height: 40rem;
-    min-width: 40rem;
-}*/
+/*_echarts style*/
+._echarts ._carousel {
+    min-height: 18rem !important;
+    max-height: 30rem !important;
+    min-width: 30rem !important;
+}
