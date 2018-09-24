@@ -1,4 +1,9 @@
-$(function () {
+//@ sourceURL=echarts_draw.js
+/**
+ * define how to display the carousels themselves and the echarts inside each carousel
+ * applying to $(._wrapper ._main ._visual ._echarts) 
+ */
+export function echarts_draw() {
     //1) Sidebar js
     $('._wrapper ._sidebar ._inner').on('click', function () {
         alert('aaa');
@@ -264,4 +269,4 @@ $(function () {
         myChart3.resize();
     };
 
-});
+};
