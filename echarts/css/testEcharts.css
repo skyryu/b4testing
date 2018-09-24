@@ -1,3 +1,6 @@
+test {
+    color: #c23531;
+}
 
 /* _sidebar text color (in)active*/
 ._wrapper ._sidebar {
@@ -45,13 +48,13 @@
     box-shadow: none !important;
 }
 
-._3d_model {
+._model_or_form {
     min-width: 40rem;
     min-height: 40rem;
 }
 
 /*_echarts style*/
-._echarts ._carousel {
+._echarts .carousel {
     min-height: 18rem !important;
     max-height: 30rem !important;
     min-width: 30rem !important;
