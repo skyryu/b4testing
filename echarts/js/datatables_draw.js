@@ -1,3 +1,3 @@
-export function datatables_draw() {
-    $('#table_id').DataTable();
+datatables_draw = function() {
+    $('#example').DataTable();
 };

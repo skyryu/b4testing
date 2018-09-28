@@ -1,9 +1,9 @@
-//@ sourceURL=echarts_draw.js
+//# sourceURL=echarts_draw.js
 /**
  * define how to display the carousels themselves and the echarts inside each carousel
  * applying to $(._wrapper ._main ._visual ._echarts) 
  */
-export function echarts_draw() {
+echarts_draw = function() {
     //1) Sidebar js
     $('._wrapper ._sidebar ._inner').on('click', function () {
         alert('aaa');
@@ -38,7 +38,7 @@ export function echarts_draw() {
     //prevent auto sliding
     $('.carousel').carousel({
         interval: false
-    })
+    });
 
 
     //line chart functions begin
