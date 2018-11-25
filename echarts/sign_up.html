@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Visual Sensor Signup</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/testEcharts.css">
+    <script defer src="js/solid.min.js"></script>
+    <script defer src="js/fontawesome.min.js"></script>
+
+
+</head>
+
+<body class="container-fluid p-0" style="height:100vh">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info">
+        <a class="navbar-brand" href="#">主页</a>
+        <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation"></button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li id="_navbar_model_show_anchor" class="nav-item active">
+                    <a class="nav-link" href="#">模型显示</a>
+                </li>
+                <li id="_navbar_statistics_show_anchor" class="nav-item">
+                    <a class="nav-link" href="#">数据显示</a>
+                </li>
+            </ul>
+        </div><!-- collapse end-->
+    </nav><!-- navbar div end-->
+
+    <div class="jumbotron jumbotron-fluid h-100">
+        <div class="container d-flex justify-content-around">
+            <div class="_site_intro d-none d-xl-block">
+                <h1 class="display-4">Fluid jumbotron</h1>
+                <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its
+                    parent.</p>
+            </div><!-- _site_intro end -->
+
+            <div class="_login">
+                <style>
+                    ._login_form button{
+                        background: linear-gradient(215deg, #546e7a, #37474f);
+                    }
+                    ._login_form button:hover{
+                        background: linear-gradient(215deg, #a6cada, #4b6775);
+                    }
+
+                </style>
+                <div class="card" style="width:20rem;height:30rem;">
+                    <div class="card-body">
+                        <div class="_login_logo text-center">
+                            <img src="src/logo.svg" alt="site logo" class="m-2" style="height:4rem;width:4rem;">
+                            <p class="lead mb-2">Create your personal account</p>
+                        </div><!-- login logo div end -->
+                        <form class="_login_form needs-validation" novalidate>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="请创建用户名">
+                                <div class="invalid-feedback">
+                                    Please choose a username.
+                                </div>
+                            </div><!-- username input div end -->
+                            <div class="form-group">
+                                <input type="password" class="form-control" placeholder="请输入密码">
+                                <div class="invalid-feedback">
+                                    Please choose a username.
+                                </div>
+                            </div><!-- password input div end-->
+                            <div class="form-group">
+                                <input type="password" class="form-control" placeholder="请确认密码">
+                                <div class="invalid-feedback">
+                                    Please choose a username.
+                                </div>
+                            </div><!-- password input div end-->
+                            <button type="submit" class="btn btn-dark btn-block">注册</button>
+                        </form><!-- _login_form end -->
+                        <p class="text-center mt-2">
+                            <span class="text-muted align-middle">已经拥有账号？</span>
+                            <a href="#" class="badge badge-pill badge-success align-middle">立即登入</a>
+                        </p>
+                    </div><!-- _login card-body end -->
+                </div><!-- _login card end -->
+            </div><!-- _login div end -->
+        </div><!-- jumbotron inner container end -->
+    </div><!-- jumbotron end-->
+
+    <footer class="fixed-bottom">
+        I am a footer, hey ha !
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/draw_components.js"></script>
+    <script>
+        // Example starter JavaScript for disabling form submissions if there are invalid fields
+        (function () {
+            'use strict';
+            window.addEventListener('load', function () {
+                // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                var forms = document.getElementsByClassName('needs-validation');
+                // Loop over them and prevent submission
+                var validation = Array.prototype.filter.call(forms, function (form) {
+                    form.addEventListener('submit', function (event) {
+                        if (form.checkValidity() === false) {
+                            event.preventDefault();
+                            event.stopPropagation();
+                        }
+                        form.classList.add('was-validated');
+                    }, false);
+                });
+            }, false);
+        })();
+    </script>
+</body>
+
+</html>
