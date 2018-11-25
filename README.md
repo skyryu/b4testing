@@ -1,486 +1,960 @@
 # b4testing
 try the frontend tech with B4
 
-    {now:'20180920 0:00:00', R1:-8.826259, R2:21},
-    {now:'20180920 1:00:00', R1:-8.870052, R2:21.2},
-    {now:'20180920 2:00:00', R1:-8.891948, R2:20.7},
-    {now:'20180920 3:00:00', R1:-8.957629, R2:21.1},
-    {now:'20180920 4:00:00', R1:-8.891948, R2:21},
-    {now:'20180920 5:00:00', R1:-8.891948, R2:20.6},
-    {now:'20180920 6:00:00', R1:-8.913843, R2:20.9},
-    {now:'20180920 7:00:00', R1:-8.782462, R2:20.8},
-    {now:'20180920 8:00:00', R1:-8.782462, R2:21.9},
-    {now:'20180920 9:00:00', R1:-8.760562, R2:22.9},
-    {now:'20180920 10:00:00', R1:-8.804361, R2:25},
-    {now:'20180920 11:00:00', R1:-8.760562, R2:25.9},
-    {now:'20180920 12:00:00', R1:-8.913843, R2:27.6},
-    {now:'20180920 13:00:00', R1:-8.782462, R2:29.1},
-    {now:'20180920 14:00:00', R1:-8.979522, R2:29.3},
-    {now:'20180920 15:00:00', R1:-9.242162, R2:30.8},
-    {now:'20180920 16:00:00', R1:-9.264043, R2:35},
-    {now:'20180920 17:00:00', R1:-9.154629, R2:35.8},
-    {now:'20180920 18:00:00', R1:-9.198397, R2:36.1},
-    {now:'20180920 19:00:00', R1:-9.023303, R2:27.1},
-    {now:'20180920 20:00:00', R1:-9.045193, R2:24.4},
-    {now:'20180920 21:00:00', R1:-9.045193, R2:23.4},
-    {now:'20180920 22:00:00', R1:-8.957629, R2:22.7},
-    {now:'20180920 23:00:00', R1:-8.935736, R2:22.5},
-    {now:'20180921 0:00:00', R1:-8.913843, R2:21.8},
-    {now:'20180921 1:00:00', R1:-8.848156, R2:21.4},
-    {now:'20180921 2:00:00', R1:-8.979522, R2:21.4},
-    {now:'20180921 3:00:00', R1:-8.804361, R2:21.6},
-    {now:'20180921 4:00:00', R1:-8.913843, R2:20.4},
-    {now:'20180921 5:00:00', R1:-8.782462, R2:19.6},
-    {now:'20180921 6:00:00', R1:-9.001413, R2:19.3},
-    {now:'20180921 7:00:00', R1:-8.782462, R2:19.3},
-    {now:'20180921 8:00:00', R1:-8.760562, R2:19.8},
-    {now:'20180921 9:00:00', R1:-8.826259, R2:21.1},
-    {now:'20180921 10:00:00', R1:-8.782462, R2:22.9},
-    {now:'20180921 11:00:00', R1:-8.804361, R2:23.9},
-    {now:'20180921 12:00:00', R1:-9.132743, R2:25.1},
-    {now:'20180921 13:00:00', R1:-8.957629, R2:28},
-    {now:'20180921 14:00:00', R1:-8.957629, R2:26.9},
-    {now:'20180921 15:00:00', R1:-8.957629, R2:27.4},
-    {now:'20180921 16:00:00', R1:-8.870052, R2:30.7},
-    {now:'20180921 17:00:00', R1:-9.045193, R2:29.6},
-    {now:'20180921 18:00:00', R1:-8.957629, R2:29.2},
-    {now:'20180921 19:00:00', R1:-9.001413, R2:23.6},
-    {now:'20180921 20:00:00', R1:-8.891948, R2:21.9},
-    {now:'20180921 21:00:00', R1:-9.001413, R2:21.1},
-    {now:'20180921 22:00:00', R1:-8.957629, R2:20.7},
-    {now:'20180921 23:00:00', R1:-8.935736, R2:20.6},
-    {now:'20180922 0:00:00', R1:-8.870052, R2:20.5},
-    {now:'20180922 1:00:00', R1:-8.804361, R2:20.3},
-    {now:'20180922 2:00:00', R1:-8.935736, R2:20.4},
-    {now:'20180922 3:00:00', R1:-8.804361, R2:20.2},
-    {now:'20180922 4:00:00', R1:-8.979522, R2:20.1},
-    {now:'20180922 5:00:00', R1:-8.848156, R2:19.9},
-    {now:'20180922 6:00:00', R1:-8.826259, R2:20},
-    {now:'20180922 7:00:00', R1:-8.979522, R2:19.5},
-    {now:'20180922 8:00:00', R1:-8.957629, R2:18.6},
-    {now:'20180922 9:00:00', R1:-8.870052, R2:18.5},
-    {now:'20180922 10:00:00', R1:-9.001413, R2:18.9},
-    {now:'20180922 11:00:00', R1:-8.979522, R2:19.7},
-    {now:'20180922 12:00:00', R1:-9.08897, R2:19.3},
-    {now:'20180922 13:00:00', R1:-9.001413, R2:22.7},
-    {now:'20180922 14:00:00', R1:-9.110857, R2:24},
-    {now:'20180922 15:00:00', R1:-9.067082, R2:24},
-    {now:'20180922 16:00:00', R1:-8.979522, R2:24.4},
-    {now:'20180922 17:00:00', R1:-8.913843, R2:24.5},
-    {now:'20180922 18:00:00', R1:-9.198397, R2:25.5},
-    {now:'20180922 19:00:00', R1:-9.307803, R2:21.2},
-    {now:'20180922 20:00:00', R1:-9.22028, R2:19.5},
-    {now:'20180922 21:00:00', R1:-9.045193, R2:18.8},
-    {now:'20180922 22:00:00', R1:-9.08897, R2:18.5},
-    {now:'20180922 23:00:00', R1:-9.045193, R2:18.3},
-    {now:'20180923 0:00:00', R1:-9.176513, R2:18},
-    {now:'20180923 1:00:00', R1:-9.154629, R2:18},
-    {now:'20180923 2:00:00', R1:-9.067082, R2:18.3},
-    {now:'20180923 3:00:00', R1:-9.08897, R2:18.3},
-    {now:'20180923 4:00:00', R1:-9.110857, R2:18.4},
-    {now:'20180923 5:00:00', R1:-9.023303, R2:18.7},
-    {now:'20180923 6:00:00', R1:-9.110857, R2:18.8},
-    {now:'20180923 7:00:00', R1:-9.067082, R2:18.9},
-    {now:'20180923 8:00:00', R1:-8.935736, R2:20.1},
-    {now:'20180923 9:00:00', R1:-8.891948, R2:21.2},
-    {now:'20180923 10:00:00', R1:-9.067082, R2:22.5},
-    {now:'20180923 11:00:00', R1:-9.045193, R2:26},
-    {now:'20180923 12:00:00', R1:-9.067082, R2:27.9},
-    {now:'20181005 9:00:00', R1:-11.055445, R2:15.7},
-    {now:'20181005 10:00:00', R1:-11.011819, R2:16.9},
-    {now:'20181005 14:00:00', R1:-10.924558, R2:23.5},
-    {now:'20181005 15:00:00', R1:-10.924558, R2:25.6},
-    {now:'20181006 19:00:00', R1:-11.055445, R2:18.3},
-    {now:'20181006 20:00:00', R1:-11.033632, R2:18},
-    {now:'20181006 21:00:00', R1:-10.990005, R2:17.8},
-    {now:'20181007 11:00:00', R1:-10.815463, R2:19.9},
-    {now:'20181010 3:00:00', R1:-10.990005, R2:13.2},
-    {now:'20181010 17:00:00', R1:-10.837284, R2:16.1},
-    {now:'20181015 20:00:00', R1:-10.880922, R2:13.6},
-    {now:'20181015 21:00:00', R1:-10.771819, R2:13.5},
-    {now:'20181015 22:00:00', R1:-10.924558, R2:13.5},
-    {now:'20181015 23:00:00', R1:-10.684521, R2:13.4},
-    {now:'20181016 0:00:00', R1:-10.728171, R2:13.4},
-    {now:'20181016 15:00:00', R1:-10.575379, R2:18.4},
-    {now:'20181019 1:00:00', R1:-10.749996, R2:13.4},
-    {now:'20181021 12:00:00', R1:-10.837284, R2:18.7},
-    {now:'20181021 15:00:00', R1:-10.728171, R2:20},
-    {now:'20181021 16:00:00', R1:-10.597209, R2:20.2},
-    {now:'20181022 0:00:00', R1:-10.706347, R2:13.6},
-    {now:'20181026 6:00:00', R1:-10.531717, R2:14.7},
-    {now:'20181026 7:00:00', R1:-10.640867, R2:14.6},
-    {now:'20181026 8:00:00', R1:-10.640867, R2:14.8},
-    {now:'20181026 10:00:00', R1:-10.357033, R2:18.6},
-    {now:'20181026 11:00:00', R1:-10.488051, R2:18.2},
-    {now:'20181026 12:00:00', R1:-10.640867, R2:20.3},
-    {now:'20181026 13:00:00', R1:-10.771819, R2:19.7},
-    {now:'20181026 14:00:00', R1:-10.728171, R2:19.4},
-    {now:'20181026 16:00:00', R1:-10.684521, R2:18.3},
-    {now:'20181026 17:00:00', R1:-10.684521, R2:16.9},
-    {now:'20181026 18:00:00', R1:-10.640867, R2:16.4},
-    {now:'20181026 19:00:00', R1:-10.771819, R2:15.9},
-    {now:'20181026 20:00:00', R1:-10.749996, R2:15.7},
-    {now:'20181026 21:00:00', R1:-10.553548, R2:15.5},
-    {now:'20181026 22:00:00', R1:-10.575379, R2:15.3},
-    {now:'20181026 23:00:00', R1:-10.815463, R2:15.2},
-    {now:'20181027 0:00:00', R1:-10.684521, R2:15.1},
-    {now:'20181027 18:00:00', R1:-10.466217, R2:19.1},
-    {now:'20181027 22:00:00', R1:-10.575379, R2:16.2},
-    {now:'20181027 23:00:00', R1:-10.553548, R2:15.9},
-    {now:'20181028 3:00:00', R1:-10.749996, R2:15.4},
-    {now:'20181028 4:00:00', R1:-10.553548, R2:15.2},
-    {now:'20181028 5:00:00', R1:-10.706347, R2:15},
-    {now:'20181028 6:00:00', R1:-10.662694, R2:14.8},
-    {now:'20181028 7:00:00', R1:-11.033632, R2:14.6},
-    {now:'20181028 8:00:00', R1:-10.815463, R2:14.7},
-    {now:'20181028 9:00:00', R1:-10.662694, R2:14.8},
-    {now:'20181028 10:00:00', R1:-10.488051, R2:15.6},
-    {now:'20181028 11:00:00', R1:-10.313354, R2:18.4},
-    {now:'20181028 12:00:00', R1:-10.575379, R2:17.8},
-    {now:'20181028 13:00:00', R1:-10.575379, R2:19.3},
-    {now:'20181028 14:00:00', R1:-10.662694, R2:21.8},
-    {now:'20181028 17:00:00', R1:-10.749996, R2:20.8},
-    {now:'20181028 18:00:00', R1:-10.771819, R2:18.4},
-    {now:'20181028 20:00:00', R1:-10.597209, R2:16.8},
-    {now:'20181028 22:00:00', R1:-10.640867, R2:14.5},
-    {now:'20181029 1:00:00', R1:-10.662694, R2:13.4},
-    {now:'20181029 2:00:00', R1:-10.619038, R2:13.7},
-    {now:'20181029 5:00:00', R1:-10.597209, R2:13.9},
-    {now:'20181029 6:00:00', R1:-10.684521, R2:14},
-    {now:'20181029 7:00:00', R1:-10.684521, R2:14.2},
-    {now:'20181029 8:00:00', R1:-10.684521, R2:14.5},
-    {now:'20181029 10:00:00', R1:-10.706347, R2:15.7},
-    {now:'20181029 15:00:00', R1:-10.793641, R2:17.4},
-    {now:'20181029 20:00:00', R1:-10.553548, R2:13.3},
-    {now:'20181029 21:00:00', R1:-10.619038, R2:13.3},
-    {now:'20181030 4:00:00', R1:-10.640867, R2:13.4},
-    {now:'20181030 6:00:00', R1:-10.619038, R2:13.6},
-    {now:'20181030 7:00:00', R1:-10.575379, R2:13.4},
-    {now:'20181030 8:00:00', R1:-10.662694, R2:13.2},
-    {now:'20181030 14:00:00', R1:-10.225985, R2:18.1},
-    {now:'20181030 18:00:00', R1:-10.619038, R2:15.5}
-]
+S9101
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.826259', time_stamp='20180920 0:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.826259', time_stamp='20180920 0:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.870052', time_stamp='20180920 1:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.870052', time_stamp='20180920 1:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.891948', time_stamp='20180920 2:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.891948', time_stamp='20180920 2:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.957629', time_stamp='20180920 3:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.957629', time_stamp='20180920 3:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.891948', time_stamp='20180920 4:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.891948', time_stamp='20180920 4:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.891948', time_stamp='20180920 5:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.891948', time_stamp='20180920 5:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.913843', time_stamp='20180920 6:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.913843', time_stamp='20180920 6:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.782462', time_stamp='20180920 7:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.782462', time_stamp='20180920 7:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.782462', time_stamp='20180920 8:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.782462', time_stamp='20180920 8:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.760562', time_stamp='20180920 9:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.760562', time_stamp='20180920 9:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.804361', time_stamp='20180920 10:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.804361', time_stamp='20180920 10:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.760562', time_stamp='20180920 11:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.760562', time_stamp='20180920 11:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.913843', time_stamp='20180920 12:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.913843', time_stamp='20180920 12:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.782462', time_stamp='20180920 13:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.782462', time_stamp='20180920 13:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.979522', time_stamp='20180920 14:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.979522', time_stamp='20180920 14:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-9.242162', time_stamp='20180920 15:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-9.242162', time_stamp='20180920 15:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-9.264043', time_stamp='20180920 16:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-9.264043', time_stamp='20180920 16:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-9.154629', time_stamp='20180920 17:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-9.154629', time_stamp='20180920 17:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-9.198397', time_stamp='20180920 18:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-9.198397', time_stamp='20180920 18:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-9.023303', time_stamp='20180920 19:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-9.023303', time_stamp='20180920 19:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-9.045193', time_stamp='20180920 20:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-9.045193', time_stamp='20180920 20:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-9.045193', time_stamp='20180920 21:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-9.045193', time_stamp='20180920 21:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.957629', time_stamp='20180920 22:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.957629', time_stamp='20180920 22:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.935736', time_stamp='20180920 23:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.935736', time_stamp='20180920 23:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.913843', time_stamp='20180921 0:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.913843', time_stamp='20180921 0:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.848156', time_stamp='20180921 1:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.848156', time_stamp='20180921 1:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.979522', time_stamp='20180921 2:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.979522', time_stamp='20180921 2:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.804361', time_stamp='20180921 3:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.804361', time_stamp='20180921 3:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.913843', time_stamp='20180921 4:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.913843', time_stamp='20180921 4:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.782462', time_stamp='20180921 5:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.782462', time_stamp='20180921 5:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-9.001413', time_stamp='20180921 6:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-9.001413', time_stamp='20180921 6:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.782462', time_stamp='20180921 7:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.782462', time_stamp='20180921 7:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.760562', time_stamp='20180921 8:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.760562', time_stamp='20180921 8:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.826259', time_stamp='20180921 9:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.826259', time_stamp='20180921 9:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.782462', time_stamp='20180921 10:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.782462', time_stamp='20180921 10:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.804361', time_stamp='20180921 11:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.804361', time_stamp='20180921 11:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-9.132743', time_stamp='20180921 12:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-9.132743', time_stamp='20180921 12:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.957629', time_stamp='20180921 13:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.957629', time_stamp='20180921 13:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.957629', time_stamp='20180921 14:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.957629', time_stamp='20180921 14:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.957629', time_stamp='20180921 15:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.957629', time_stamp='20180921 15:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.870052', time_stamp='20180921 16:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.870052', time_stamp='20180921 16:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-9.045193', time_stamp='20180921 17:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-9.045193', time_stamp='20180921 17:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.957629', time_stamp='20180921 18:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.957629', time_stamp='20180921 18:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-9.001413', time_stamp='20180921 19:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-9.001413', time_stamp='20180921 19:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.891948', time_stamp='20180921 20:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.891948', time_stamp='20180921 20:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-9.001413', time_stamp='20180921 21:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-9.001413', time_stamp='20180921 21:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.957629', time_stamp='20180921 22:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.957629', time_stamp='20180921 22:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.935736', time_stamp='20180921 23:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.935736', time_stamp='20180921 23:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.870052', time_stamp='20180922 0:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.870052', time_stamp='20180922 0:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.804361', time_stamp='20180922 1:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.804361', time_stamp='20180922 1:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.935736', time_stamp='20180922 2:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.935736', time_stamp='20180922 2:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.804361', time_stamp='20180922 3:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.804361', time_stamp='20180922 3:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.979522', time_stamp='20180922 4:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.979522', time_stamp='20180922 4:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.848156', time_stamp='20180922 5:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.848156', time_stamp='20180922 5:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.826259', time_stamp='20180922 6:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.826259', time_stamp='20180922 6:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.979522', time_stamp='20180922 7:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.979522', time_stamp='20180922 7:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.957629', time_stamp='20180922 8:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.957629', time_stamp='20180922 8:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.870052', time_stamp='20180922 9:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.870052', time_stamp='20180922 9:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-9.001413', time_stamp='20180922 10:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-9.001413', time_stamp='20180922 10:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.979522', time_stamp='20180922 11:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.979522', time_stamp='20180922 11:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-9.08897', time_stamp='20180922 12:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-9.08897', time_stamp='20180922 12:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-9.001413', time_stamp='20180922 13:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-9.001413', time_stamp='20180922 13:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-9.110857', time_stamp='20180922 14:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-9.110857', time_stamp='20180922 14:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-9.067082', time_stamp='20180922 15:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-9.067082', time_stamp='20180922 15:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.979522', time_stamp='20180922 16:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.979522', time_stamp='20180922 16:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.913843', time_stamp='20180922 17:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.913843', time_stamp='20180922 17:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-9.198397', time_stamp='20180922 18:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-9.198397', time_stamp='20180922 18:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-9.307803', time_stamp='20180922 19:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-9.307803', time_stamp='20180922 19:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-9.22028', time_stamp='20180922 20:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-9.22028', time_stamp='20180922 20:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-9.045193', time_stamp='20180922 21:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-9.045193', time_stamp='20180922 21:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-9.08897', time_stamp='20180922 22:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-9.08897', time_stamp='20180922 22:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-9.045193', time_stamp='20180922 23:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-9.045193', time_stamp='20180922 23:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-9.176513', time_stamp='20180923 0:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-9.176513', time_stamp='20180923 0:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-9.154629', time_stamp='20180923 1:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-9.154629', time_stamp='20180923 1:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-9.067082', time_stamp='20180923 2:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-9.067082', time_stamp='20180923 2:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-9.08897', time_stamp='20180923 3:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-9.08897', time_stamp='20180923 3:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-9.110857', time_stamp='20180923 4:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-9.110857', time_stamp='20180923 4:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-9.023303', time_stamp='20180923 5:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-9.023303', time_stamp='20180923 5:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-9.110857', time_stamp='20180923 6:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-9.110857', time_stamp='20180923 6:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-9.067082', time_stamp='20180923 7:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-9.067082', time_stamp='20180923 7:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.935736', time_stamp='20180923 8:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.935736', time_stamp='20180923 8:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.891948', time_stamp='20180923 9:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-8.891948', time_stamp='20180923 9:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-9.067082', time_stamp='20180923 10:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-9.067082', time_stamp='20180923 10:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-9.045193', time_stamp='20180923 11:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-9.045193', time_stamp='20180923 11:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-9.067082', time_stamp='20180923 12:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-9.067082', time_stamp='20180923 12:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-11.055445', time_stamp='20181005 9:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-11.055445', time_stamp='20181005 9:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-11.011819', time_stamp='20181005 10:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-11.011819', time_stamp='20181005 10:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.924558', time_stamp='20181005 14:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.924558', time_stamp='20181005 14:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.924558', time_stamp='20181005 15:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.924558', time_stamp='20181005 15:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-11.055445', time_stamp='20181006 19:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-11.055445', time_stamp='20181006 19:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-11.033632', time_stamp='20181006 20:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-11.033632', time_stamp='20181006 20:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.990005', time_stamp='20181006 21:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.990005', time_stamp='20181006 21:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.815463', time_stamp='20181007 11:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.815463', time_stamp='20181007 11:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.990005', time_stamp='20181010 3:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.990005', time_stamp='20181010 3:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.837284', time_stamp='20181010 17:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.837284', time_stamp='20181010 17:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.880922', time_stamp='20181015 20:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.880922', time_stamp='20181015 20:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.771819', time_stamp='20181015 21:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.771819', time_stamp='20181015 21:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.924558', time_stamp='20181015 22:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.924558', time_stamp='20181015 22:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.684521', time_stamp='20181015 23:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.684521', time_stamp='20181015 23:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.728171', time_stamp='20181016 0:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.728171', time_stamp='20181016 0:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.575379', time_stamp='20181016 15:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.575379', time_stamp='20181016 15:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.749996', time_stamp='20181019 1:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.749996', time_stamp='20181019 1:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.837284', time_stamp='20181021 12:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.837284', time_stamp='20181021 12:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.728171', time_stamp='20181021 15:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.728171', time_stamp='20181021 15:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.597209', time_stamp='20181021 16:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.597209', time_stamp='20181021 16:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.706347', time_stamp='20181022 0:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.706347', time_stamp='20181022 0:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.531717', time_stamp='20181026 6:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.531717', time_stamp='20181026 6:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.640867', time_stamp='20181026 7:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.640867', time_stamp='20181026 7:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.640867', time_stamp='20181026 8:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.640867', time_stamp='20181026 8:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.357033', time_stamp='20181026 10:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.357033', time_stamp='20181026 10:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.488051', time_stamp='20181026 11:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.488051', time_stamp='20181026 11:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.640867', time_stamp='20181026 12:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.640867', time_stamp='20181026 12:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.771819', time_stamp='20181026 13:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.771819', time_stamp='20181026 13:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.728171', time_stamp='20181026 14:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.728171', time_stamp='20181026 14:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.684521', time_stamp='20181026 16:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.684521', time_stamp='20181026 16:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.684521', time_stamp='20181026 17:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.684521', time_stamp='20181026 17:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.640867', time_stamp='20181026 18:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.640867', time_stamp='20181026 18:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.771819', time_stamp='20181026 19:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.771819', time_stamp='20181026 19:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.749996', time_stamp='20181026 20:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.749996', time_stamp='20181026 20:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.553548', time_stamp='20181026 21:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.553548', time_stamp='20181026 21:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.575379', time_stamp='20181026 22:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.575379', time_stamp='20181026 22:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.815463', time_stamp='20181026 23:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.815463', time_stamp='20181026 23:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.684521', time_stamp='20181027 0:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.684521', time_stamp='20181027 0:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.466217', time_stamp='20181027 18:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.466217', time_stamp='20181027 18:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.575379', time_stamp='20181027 22:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.575379', time_stamp='20181027 22:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.553548', time_stamp='20181027 23:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.553548', time_stamp='20181027 23:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.749996', time_stamp='20181028 3:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.749996', time_stamp='20181028 3:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.553548', time_stamp='20181028 4:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.553548', time_stamp='20181028 4:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.706347', time_stamp='20181028 5:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.706347', time_stamp='20181028 5:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.662694', time_stamp='20181028 6:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.662694', time_stamp='20181028 6:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-11.033632', time_stamp='20181028 7:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-11.033632', time_stamp='20181028 7:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.815463', time_stamp='20181028 8:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.815463', time_stamp='20181028 8:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.662694', time_stamp='20181028 9:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.662694', time_stamp='20181028 9:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.488051', time_stamp='20181028 10:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.488051', time_stamp='20181028 10:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.313354', time_stamp='20181028 11:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.313354', time_stamp='20181028 11:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.575379', time_stamp='20181028 12:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.575379', time_stamp='20181028 12:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.575379', time_stamp='20181028 13:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.575379', time_stamp='20181028 13:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.662694', time_stamp='20181028 14:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.662694', time_stamp='20181028 14:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.749996', time_stamp='20181028 17:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.749996', time_stamp='20181028 17:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.771819', time_stamp='20181028 18:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.771819', time_stamp='20181028 18:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.597209', time_stamp='20181028 20:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.597209', time_stamp='20181028 20:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.640867', time_stamp='20181028 22:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.640867', time_stamp='20181028 22:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.662694', time_stamp='20181029 1:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.662694', time_stamp='20181029 1:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.619038', time_stamp='20181029 2:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.619038', time_stamp='20181029 2:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.597209', time_stamp='20181029 5:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.597209', time_stamp='20181029 5:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.684521', time_stamp='20181029 6:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.684521', time_stamp='20181029 6:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.684521', time_stamp='20181029 7:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.684521', time_stamp='20181029 7:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.684521', time_stamp='20181029 8:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.684521', time_stamp='20181029 8:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.706347', time_stamp='20181029 10:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.706347', time_stamp='20181029 10:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.793641', time_stamp='20181029 15:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.793641', time_stamp='20181029 15:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.553548', time_stamp='20181029 20:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.553548', time_stamp='20181029 20:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.619038', time_stamp='20181029 21:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.619038', time_stamp='20181029 21:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.640867', time_stamp='20181030 4:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.640867', time_stamp='20181030 4:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.619038', time_stamp='20181030 6:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.619038', time_stamp='20181030 6:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.575379', time_stamp='20181030 7:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.575379', time_stamp='20181030 7:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.662694', time_stamp='20181030 8:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.662694', time_stamp='20181030 8:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.225985', time_stamp='20181030 14:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.225985', time_stamp='20181030 14:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.619038', time_stamp='20181030 18:00:00'))
+db.session.add(SensorData(sensor_name='s9101', component_name='R1', data_type='all', value='-10.619038', time_stamp='20181030 18:00:00'))
 
-var lineChartData2 = [
-    {now:'20180920 0:00:00', R1:-9.190608, R2:21.1},
-    {now:'20180920 1:00:00', R1:-9.106415, R2:21.2},
-    {now:'20180920 2:00:00', R1:-9.106415, R2:20.7},
-    {now:'20180920 3:00:00', R1:-9.169561, R2:21},
-    {now:'20180920 4:00:00', R1:-9.29583, R2:21},
-    {now:'20180920 5:00:00', R1:-9.148513, R2:20.5},
-    {now:'20180920 6:00:00', R1:-9.232699, R2:20.9},
-    {now:'20180920 7:00:00', R1:-9.148513, R2:20.8},
-    {now:'20180920 8:00:00', R1:-9.085365, R2:21.9},
-    {now:'20180920 9:00:00', R1:-9.085365, R2:23.1},
-    {now:'20180920 10:00:00', R1:-9.106415, R2:25.2},
-    {now:'20180920 11:00:00', R1:-9.001156, R2:26.2},
-    {now:'20180920 12:00:00', R1:-9.148513, R2:28},
-    {now:'20180920 13:00:00', R1:-9.085365, R2:29.7},
-    {now:'20180920 14:00:00', R1:-9.211654, R2:29.8},
-    {now:'20180920 15:00:00', R1:-9.127465, R2:32.4},
-    {now:'20180920 16:00:00', R1:-9.29583, R2:37.8},
-    {now:'20180920 17:00:00', R1:-9.211654, R2:35.3},
-    {now:'20180920 18:00:00', R1:-9.548278, R2:35.1},
-    {now:'20180920 19:00:00', R1:-9.337913, R2:26.8},
-    {now:'20180920 20:00:00', R1:-9.316872, R2:24.3},
-    {now:'20180920 21:00:00', R1:-9.169561, R2:23.4},
-    {now:'20180920 22:00:00', R1:-9.232699, R2:22.8},
-    {now:'20180920 23:00:00', R1:-9.274787, R2:22.5},
-    {now:'20180921 0:00:00', R1:-9.169561, R2:21.8},
-    {now:'20180921 1:00:00', R1:-9.274787, R2:21.4},
-    {now:'20180921 2:00:00', R1:-9.169561, R2:21.5},
-    {now:'20180921 3:00:00', R1:-9.106415, R2:21.6},
-    {now:'20180921 4:00:00', R1:-9.232699, R2:19.9},
-    {now:'20180921 5:00:00', R1:-9.211654, R2:19.6},
-    {now:'20180921 6:00:00', R1:-9.358953, R2:19.3},
-    {now:'20180921 7:00:00', R1:-9.232699, R2:19.7},
-    {now:'20180921 8:00:00', R1:-9.02221, R2:20.3},
-    {now:'20180921 9:00:00', R1:-9.127465, R2:21.8},
-    {now:'20180921 10:00:00', R1:-9.043262, R2:23.9},
-    {now:'20180921 11:00:00', R1:-9.190608, R2:24.4},
-    {now:'20180921 12:00:00', R1:-9.043262, R2:24.9},
-    {now:'20180921 13:00:00', R1:-9.085365, R2:27.7},
-    {now:'20180921 14:00:00', R1:-9.190608, R2:27},
-    {now:'20180921 15:00:00', R1:-9.253743, R2:27.1},
-    {now:'20180921 16:00:00', R1:-9.043262, R2:31.1},
-    {now:'20180921 17:00:00', R1:-9.169561, R2:28.9},
-    {now:'20180921 18:00:00', R1:-9.29583, R2:28},
-    {now:'20180921 19:00:00', R1:-9.422069, R2:23.3},
-    {now:'20180921 20:00:00', R1:-9.274787, R2:21.9},
-    {now:'20180921 21:00:00', R1:-9.274787, R2:21},
-    {now:'20180921 22:00:00', R1:-9.274787, R2:20.6},
-    {now:'20180921 23:00:00', R1:-9.211654, R2:20.6},
-    {now:'20180922 0:00:00', R1:-9.211654, R2:20.5},
-    {now:'20180922 1:00:00', R1:-9.29583, R2:20.3},
-    {now:'20180922 2:00:00', R1:-9.253743, R2:20.3},
-    {now:'20180922 3:00:00', R1:-9.190608, R2:20.3},
-    {now:'20180922 4:00:00', R1:-9.253743, R2:20.1},
-    {now:'20180922 5:00:00', R1:-9.127465, R2:19.9},
-    {now:'20180922 6:00:00', R1:-9.274787, R2:19.9},
-    {now:'20180922 7:00:00', R1:-9.29583, R2:19.3},
-    {now:'20180922 8:00:00', R1:-9.29583, R2:18.6},
-    {now:'20180922 9:00:00', R1:-9.106415, R2:18.2},
-    {now:'20180922 10:00:00', R1:-9.379992, R2:18.6},
-    {now:'20180922 11:00:00', R1:-9.358953, R2:19.1},
-    {now:'20180922 12:00:00', R1:-9.464142, R2:18.9},
-    {now:'20180922 13:00:00', R1:-9.253743, R2:21.8},
-    {now:'20180922 14:00:00', R1:-9.422069, R2:22.8},
-    {now:'20180922 15:00:00', R1:-9.422069, R2:23},
-    {now:'20180922 16:00:00', R1:-9.379992, R2:23.5},
-    {now:'20180922 17:00:00', R1:-9.274787, R2:24.6},
-    {now:'20180922 18:00:00', R1:-9.506212, R2:25.5},
-    {now:'20180922 19:00:00', R1:-9.443106, R2:21.3},
-    {now:'20180922 20:00:00', R1:-9.506212, R2:19.6},
-    {now:'20180922 21:00:00', R1:-9.401031, R2:18.9},
-    {now:'20180922 22:00:00', R1:-9.506212, R2:18.6},
-    {now:'20180922 23:00:00', R1:-9.379992, R2:18.3},
-    {now:'20180923 0:00:00', R1:-9.401031, R2:18},
-    {now:'20180923 1:00:00', R1:-9.401031, R2:18.1},
-    {now:'20180923 2:00:00', R1:-9.29583, R2:18.3},
-    {now:'20180923 3:00:00', R1:-9.422069, R2:18.3},
-    {now:'20180923 4:00:00', R1:-9.337913, R2:18.4},
-    {now:'20180923 5:00:00', R1:-9.443106, R2:18.7},
-    {now:'20180923 6:00:00', R1:-9.29583, R2:18.8},
-    {now:'20180923 7:00:00', R1:-9.379992, R2:18.9},
-    {now:'20180923 8:00:00', R1:-9.358953, R2:20.1},
-    {now:'20180923 9:00:00', R1:-9.274787, R2:21.1},
-    {now:'20180923 10:00:00', R1:-9.337913, R2:22.7},
-    {now:'20180923 11:00:00', R1:-9.148513, R2:26.3},
-    {now:'20180923 12:00:00', R1:-9.274787, R2:28.2},
-    {now:'20181005 9:00:00', R1:-11.710229, R2:15.7},
-    {now:'20181005 10:00:00', R1:-11.710229, R2:16.8},
-    {now:'20181005 14:00:00', R1:-11.626434, R2:23.5},
-    {now:'20181005 15:00:00', R1:-11.668333, R2:25.4},
-    {now:'20181006 19:00:00', R1:-11.731176, R2:18.4},
-    {now:'20181006 20:00:00', R1:-11.689282, R2:18},
-    {now:'20181006 21:00:00', R1:-11.731176, R2:17.8},
-    {now:'20181007 11:00:00', R1:-11.542625, R2:19.7},
-    {now:'20181010 3:00:00', R1:-11.752122, R2:13.1},
-    {now:'20181010 17:00:00', R1:-11.814955, R2:16},
-    {now:'20181015 20:00:00', R1:-11.584531, R2:13.6},
-    {now:'20181015 21:00:00', R1:-11.731176, R2:13.5},
-    {now:'20181015 22:00:00', R1:-11.752122, R2:13.5},
-    {now:'20181015 23:00:00', R1:-11.85684, R2:13.4},
-    {now:'20181016 0:00:00', R1:-11.647384, R2:13.4},
-    {now:'20181016 15:00:00', R1:-11.794012, R2:18.3},
-    {now:'20181019 1:00:00', R1:-11.668333, R2:13.3},
-    {now:'20181021 12:00:00', R1:-11.626434, R2:18.5},
-    {now:'20181021 15:00:00', R1:-11.458803, R2:19.7},
-    {now:'20181021 16:00:00', R1:-11.626434, R2:20},
-    {now:'20181022 0:00:00', R1:-11.731176, R2:13.4},
-    {now:'20181026 6:00:00', R1:-11.584531, R2:14.7},
-    {now:'20181026 7:00:00', R1:-11.647384, R2:14.6},
-    {now:'20181026 8:00:00', R1:-11.563578, R2:14.8},
-    {now:'20181026 10:00:00', R1:-11.605483, R2:18.7},
-    {now:'20181026 11:00:00', R1:-11.542625, R2:18.2},
-    {now:'20181026 12:00:00', R1:-11.605483, R2:20.1},
-    {now:'20181026 13:00:00', R1:-11.668333, R2:19.5},
-    {now:'20181026 14:00:00', R1:-11.668333, R2:19.1},
-    {now:'20181026 16:00:00', R1:-11.668333, R2:18.4},
-    {now:'20181026 17:00:00', R1:-11.626434, R2:16.9},
-    {now:'20181026 18:00:00', R1:-11.647384, R2:16.4},
-    {now:'20181026 19:00:00', R1:-11.521671, R2:15.9},
-    {now:'20181026 20:00:00', R1:-11.731176, R2:15.7},
-    {now:'20181026 21:00:00', R1:-11.584531, R2:15.5},
-    {now:'20181026 22:00:00', R1:-11.689282, R2:15.3},
-    {now:'20181026 23:00:00', R1:-11.689282, R2:15.2},
-    {now:'20181027 0:00:00', R1:-11.731176, R2:15.2},
-    {now:'20181027 18:00:00', R1:-11.521671, R2:19.1},
-    {now:'20181027 22:00:00', R1:-11.584531, R2:16.2},
-    {now:'20181027 23:00:00', R1:-11.668333, R2:15.8},
-    {now:'20181028 3:00:00', R1:-11.605483, R2:15.4},
-    {now:'20181028 4:00:00', R1:-11.689282, R2:15.2},
-    {now:'20181028 5:00:00', R1:-11.794012, R2:15},
-    {now:'20181028 6:00:00', R1:-11.794012, R2:14.8},
-    {now:'20181028 7:00:00', R1:-11.605483, R2:14.6},
-    {now:'20181028 8:00:00', R1:-11.563578, R2:14.6},
-    {now:'20181028 9:00:00', R1:-11.794012, R2:14.9},
-    {now:'20181028 10:00:00', R1:-11.647384, R2:15.5},
-    {now:'20181028 11:00:00', R1:-11.416887, R2:17.9},
-    {now:'20181028 12:00:00', R1:-11.542625, R2:17.7},
-    {now:'20181028 13:00:00', R1:-11.647384, R2:19.2},
-    {now:'20181028 14:00:00', R1:-11.647384, R2:21.9},
-    {now:'20181028 17:00:00', R1:-11.500716, R2:20.6},
-    {now:'20181028 18:00:00', R1:-11.626434, R2:18.3},
-    {now:'20181028 20:00:00', R1:-11.668333, R2:16.8},
-    {now:'20181028 22:00:00', R1:-11.689282, R2:14.5},
-    {now:'20181029 1:00:00', R1:-11.689282, R2:13.4},
-    {now:'20181029 2:00:00', R1:-11.584531, R2:13.7},
-    {now:'20181029 5:00:00', R1:-11.752122, R2:13.9},
-    {now:'20181029 6:00:00', R1:-11.668333, R2:14},
-    {now:'20181029 7:00:00', R1:-11.710229, R2:14.2},
-    {now:'20181029 8:00:00', R1:-11.626434, R2:14.5},
-    {now:'20181029 10:00:00', R1:-11.689282, R2:15.5},
-    {now:'20181029 15:00:00', R1:-11.731176, R2:17.2},
-    {now:'20181029 20:00:00', R1:-11.731176, R2:13},
-    {now:'20181029 21:00:00', R1:-11.731176, R2:12.9},
-    {now:'20181030 4:00:00', R1:-11.563578, R2:13.7},
-    {now:'20181030 6:00:00', R1:-11.689282, R2:13.7},
-    {now:'20181030 7:00:00', R1:-11.521671, R2:13.2},
-    {now:'20181030 8:00:00', R1:-11.605483, R2:13.2},
-    {now:'20181030 14:00:00', R1:-11.521671, R2:18},
-    {now:'20181030 18:00:00', R1:-11.584531, R2:15.5},
-    {now:'20181030 21:00:00', R1:-11.647384, R2:13.7} 
-]
+S9102
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-9.190608', time_stamp='20180920 0:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='21.1', time_stamp='20180920 0:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-9.106415', time_stamp='20180920 1:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='21.2', time_stamp='20180920 1:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-9.106415', time_stamp='20180920 2:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='20.7', time_stamp='20180920 2:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-9.169561', time_stamp='20180920 3:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='21', time_stamp='20180920 3:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-9.29583', time_stamp='20180920 4:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='21', time_stamp='20180920 4:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-9.148513', time_stamp='20180920 5:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='20.5', time_stamp='20180920 5:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-9.232699', time_stamp='20180920 6:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='20.9', time_stamp='20180920 6:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-9.148513', time_stamp='20180920 7:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='20.8', time_stamp='20180920 7:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-9.085365', time_stamp='20180920 8:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='21.9', time_stamp='20180920 8:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-9.085365', time_stamp='20180920 9:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='23.1', time_stamp='20180920 9:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-9.106415', time_stamp='20180920 10:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='25.2', time_stamp='20180920 10:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-9.001156', time_stamp='20180920 11:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='26.2', time_stamp='20180920 11:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-9.148513', time_stamp='20180920 12:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='28', time_stamp='20180920 12:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-9.085365', time_stamp='20180920 13:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='29.7', time_stamp='20180920 13:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-9.211654', time_stamp='20180920 14:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='29.8', time_stamp='20180920 14:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-9.127465', time_stamp='20180920 15:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='32.4', time_stamp='20180920 15:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-9.29583', time_stamp='20180920 16:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='37.8', time_stamp='20180920 16:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-9.211654', time_stamp='20180920 17:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='35.3', time_stamp='20180920 17:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-9.548278', time_stamp='20180920 18:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='35.1', time_stamp='20180920 18:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-9.337913', time_stamp='20180920 19:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='26.8', time_stamp='20180920 19:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-9.316872', time_stamp='20180920 20:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='24.3', time_stamp='20180920 20:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-9.169561', time_stamp='20180920 21:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='23.4', time_stamp='20180920 21:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-9.232699', time_stamp='20180920 22:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='22.8', time_stamp='20180920 22:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-9.274787', time_stamp='20180920 23:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='22.5', time_stamp='20180920 23:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-9.169561', time_stamp='20180921 0:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='21.8', time_stamp='20180921 0:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-9.274787', time_stamp='20180921 1:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='21.4', time_stamp='20180921 1:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-9.169561', time_stamp='20180921 2:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='21.5', time_stamp='20180921 2:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-9.106415', time_stamp='20180921 3:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='21.6', time_stamp='20180921 3:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-9.232699', time_stamp='20180921 4:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='19.9', time_stamp='20180921 4:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-9.211654', time_stamp='20180921 5:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='19.6', time_stamp='20180921 5:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-9.358953', time_stamp='20180921 6:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='19.3', time_stamp='20180921 6:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-9.232699', time_stamp='20180921 7:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='19.7', time_stamp='20180921 7:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-9.02221', time_stamp='20180921 8:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='20.3', time_stamp='20180921 8:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-9.127465', time_stamp='20180921 9:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='21.8', time_stamp='20180921 9:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-9.043262', time_stamp='20180921 10:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='23.9', time_stamp='20180921 10:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-9.190608', time_stamp='20180921 11:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='24.4', time_stamp='20180921 11:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-9.043262', time_stamp='20180921 12:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='24.9', time_stamp='20180921 12:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-9.085365', time_stamp='20180921 13:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='27.7', time_stamp='20180921 13:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-9.190608', time_stamp='20180921 14:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='27', time_stamp='20180921 14:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-9.253743', time_stamp='20180921 15:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='27.1', time_stamp='20180921 15:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-9.043262', time_stamp='20180921 16:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='31.1', time_stamp='20180921 16:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-9.169561', time_stamp='20180921 17:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='28.9', time_stamp='20180921 17:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-9.29583', time_stamp='20180921 18:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='28', time_stamp='20180921 18:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-9.422069', time_stamp='20180921 19:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='23.3', time_stamp='20180921 19:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-9.274787', time_stamp='20180921 20:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='21.9', time_stamp='20180921 20:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-9.274787', time_stamp='20180921 21:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='21', time_stamp='20180921 21:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-9.274787', time_stamp='20180921 22:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='20.6', time_stamp='20180921 22:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-9.211654', time_stamp='20180921 23:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='20.6', time_stamp='20180921 23:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-9.211654', time_stamp='20180922 0:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='20.5', time_stamp='20180922 0:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-9.29583', time_stamp='20180922 1:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='20.3', time_stamp='20180922 1:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-9.253743', time_stamp='20180922 2:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='20.3', time_stamp='20180922 2:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-9.190608', time_stamp='20180922 3:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='20.3', time_stamp='20180922 3:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-9.253743', time_stamp='20180922 4:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='20.1', time_stamp='20180922 4:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-9.127465', time_stamp='20180922 5:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='19.9', time_stamp='20180922 5:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-9.274787', time_stamp='20180922 6:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='19.9', time_stamp='20180922 6:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-9.29583', time_stamp='20180922 7:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='19.3', time_stamp='20180922 7:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-9.29583', time_stamp='20180922 8:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='18.6', time_stamp='20180922 8:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-9.106415', time_stamp='20180922 9:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='18.2', time_stamp='20180922 9:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-9.379992', time_stamp='20180922 10:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='18.6', time_stamp='20180922 10:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-9.358953', time_stamp='20180922 11:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='19.1', time_stamp='20180922 11:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-9.464142', time_stamp='20180922 12:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='18.9', time_stamp='20180922 12:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-9.253743', time_stamp='20180922 13:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='21.8', time_stamp='20180922 13:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-9.422069', time_stamp='20180922 14:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='22.8', time_stamp='20180922 14:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-9.422069', time_stamp='20180922 15:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='23', time_stamp='20180922 15:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-9.379992', time_stamp='20180922 16:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='23.5', time_stamp='20180922 16:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-9.274787', time_stamp='20180922 17:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='24.6', time_stamp='20180922 17:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-9.506212', time_stamp='20180922 18:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='25.5', time_stamp='20180922 18:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-9.443106', time_stamp='20180922 19:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='21.3', time_stamp='20180922 19:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-9.506212', time_stamp='20180922 20:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='19.6', time_stamp='20180922 20:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-9.401031', time_stamp='20180922 21:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='18.9', time_stamp='20180922 21:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-9.506212', time_stamp='20180922 22:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='18.6', time_stamp='20180922 22:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-9.379992', time_stamp='20180922 23:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='18.3', time_stamp='20180922 23:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-9.401031', time_stamp='20180923 0:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='18', time_stamp='20180923 0:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-9.401031', time_stamp='20180923 1:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='18.1', time_stamp='20180923 1:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-9.29583', time_stamp='20180923 2:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='18.3', time_stamp='20180923 2:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-9.422069', time_stamp='20180923 3:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='18.3', time_stamp='20180923 3:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-9.337913', time_stamp='20180923 4:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='18.4', time_stamp='20180923 4:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-9.443106', time_stamp='20180923 5:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='18.7', time_stamp='20180923 5:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-9.29583', time_stamp='20180923 6:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='18.8', time_stamp='20180923 6:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-9.379992', time_stamp='20180923 7:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='18.9', time_stamp='20180923 7:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-9.358953', time_stamp='20180923 8:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='20.1', time_stamp='20180923 8:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-9.274787', time_stamp='20180923 9:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='21.1', time_stamp='20180923 9:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-9.337913', time_stamp='20180923 10:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='22.7', time_stamp='20180923 10:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-9.148513', time_stamp='20180923 11:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='26.3', time_stamp='20180923 11:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-9.274787', time_stamp='20180923 12:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='28.2', time_stamp='20180923 12:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-11.710229', time_stamp='20181005 9:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='15.7', time_stamp='20181005 9:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-11.710229', time_stamp='20181005 10:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='16.8', time_stamp='20181005 10:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-11.626434', time_stamp='20181005 14:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='23.5', time_stamp='20181005 14:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-11.668333', time_stamp='20181005 15:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='25.4', time_stamp='20181005 15:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-11.731176', time_stamp='20181006 19:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='18.4', time_stamp='20181006 19:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-11.689282', time_stamp='20181006 20:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='18', time_stamp='20181006 20:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-11.731176', time_stamp='20181006 21:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='17.8', time_stamp='20181006 21:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-11.542625', time_stamp='20181007 11:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='19.7', time_stamp='20181007 11:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-11.752122', time_stamp='20181010 3:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='13.1', time_stamp='20181010 3:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-11.814955', time_stamp='20181010 17:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='16', time_stamp='20181010 17:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-11.584531', time_stamp='20181015 20:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='13.6', time_stamp='20181015 20:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-11.731176', time_stamp='20181015 21:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='13.5', time_stamp='20181015 21:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-11.752122', time_stamp='20181015 22:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='13.5', time_stamp='20181015 22:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-11.85684', time_stamp='20181015 23:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='13.4', time_stamp='20181015 23:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-11.647384', time_stamp='20181016 0:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='13.4', time_stamp='20181016 0:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-11.794012', time_stamp='20181016 15:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='18.3', time_stamp='20181016 15:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-11.668333', time_stamp='20181019 1:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='13.3', time_stamp='20181019 1:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-11.626434', time_stamp='20181021 12:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='18.5', time_stamp='20181021 12:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-11.458803', time_stamp='20181021 15:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='19.7', time_stamp='20181021 15:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-11.626434', time_stamp='20181021 16:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='20', time_stamp='20181021 16:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-11.731176', time_stamp='20181022 0:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='13.4', time_stamp='20181022 0:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-11.584531', time_stamp='20181026 6:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='14.7', time_stamp='20181026 6:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-11.647384', time_stamp='20181026 7:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='14.6', time_stamp='20181026 7:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-11.563578', time_stamp='20181026 8:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='14.8', time_stamp='20181026 8:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-11.605483', time_stamp='20181026 10:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='18.7', time_stamp='20181026 10:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-11.542625', time_stamp='20181026 11:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='18.2', time_stamp='20181026 11:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-11.605483', time_stamp='20181026 12:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='20.1', time_stamp='20181026 12:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-11.668333', time_stamp='20181026 13:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='19.5', time_stamp='20181026 13:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-11.668333', time_stamp='20181026 14:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='19.1', time_stamp='20181026 14:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-11.668333', time_stamp='20181026 16:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='18.4', time_stamp='20181026 16:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-11.626434', time_stamp='20181026 17:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='16.9', time_stamp='20181026 17:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-11.647384', time_stamp='20181026 18:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='16.4', time_stamp='20181026 18:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-11.521671', time_stamp='20181026 19:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='15.9', time_stamp='20181026 19:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-11.731176', time_stamp='20181026 20:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='15.7', time_stamp='20181026 20:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-11.584531', time_stamp='20181026 21:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='15.5', time_stamp='20181026 21:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-11.689282', time_stamp='20181026 22:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='15.3', time_stamp='20181026 22:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-11.689282', time_stamp='20181026 23:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='15.2', time_stamp='20181026 23:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-11.731176', time_stamp='20181027 0:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='15.2', time_stamp='20181027 0:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-11.521671', time_stamp='20181027 18:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='19.1', time_stamp='20181027 18:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-11.584531', time_stamp='20181027 22:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='16.2', time_stamp='20181027 22:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-11.668333', time_stamp='20181027 23:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='15.8', time_stamp='20181027 23:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-11.605483', time_stamp='20181028 3:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='15.4', time_stamp='20181028 3:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-11.689282', time_stamp='20181028 4:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='15.2', time_stamp='20181028 4:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-11.794012', time_stamp='20181028 5:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='15', time_stamp='20181028 5:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-11.794012', time_stamp='20181028 6:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='14.8', time_stamp='20181028 6:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-11.605483', time_stamp='20181028 7:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='14.6', time_stamp='20181028 7:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-11.563578', time_stamp='20181028 8:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='14.6', time_stamp='20181028 8:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-11.794012', time_stamp='20181028 9:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='14.9', time_stamp='20181028 9:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-11.647384', time_stamp='20181028 10:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='15.5', time_stamp='20181028 10:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-11.416887', time_stamp='20181028 11:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='17.9', time_stamp='20181028 11:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-11.542625', time_stamp='20181028 12:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='17.7', time_stamp='20181028 12:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-11.647384', time_stamp='20181028 13:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='19.2', time_stamp='20181028 13:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-11.647384', time_stamp='20181028 14:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='21.9', time_stamp='20181028 14:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-11.500716', time_stamp='20181028 17:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='20.6', time_stamp='20181028 17:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-11.626434', time_stamp='20181028 18:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='18.3', time_stamp='20181028 18:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-11.668333', time_stamp='20181028 20:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='16.8', time_stamp='20181028 20:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-11.689282', time_stamp='20181028 22:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='14.5', time_stamp='20181028 22:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-11.689282', time_stamp='20181029 1:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='13.4', time_stamp='20181029 1:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-11.584531', time_stamp='20181029 2:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='13.7', time_stamp='20181029 2:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-11.752122', time_stamp='20181029 5:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='13.9', time_stamp='20181029 5:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-11.668333', time_stamp='20181029 6:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='14', time_stamp='20181029 6:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-11.710229', time_stamp='20181029 7:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='14.2', time_stamp='20181029 7:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-11.626434', time_stamp='20181029 8:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='14.5', time_stamp='20181029 8:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-11.689282', time_stamp='20181029 10:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='15.5', time_stamp='20181029 10:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-11.731176', time_stamp='20181029 15:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='17.2', time_stamp='20181029 15:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-11.731176', time_stamp='20181029 20:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='13', time_stamp='20181029 20:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-11.731176', time_stamp='20181029 21:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='12.9', time_stamp='20181029 21:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-11.563578', time_stamp='20181030 4:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='13.7', time_stamp='20181030 4:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-11.689282', time_stamp='20181030 6:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='13.7', time_stamp='20181030 6:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-11.521671', time_stamp='20181030 7:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='13.2', time_stamp='20181030 7:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-11.605483', time_stamp='20181030 8:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='13.2', time_stamp='20181030 8:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-11.521671', time_stamp='20181030 14:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='18', time_stamp='20181030 14:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-11.584531', time_stamp='20181030 18:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='15.5', time_stamp='20181030 18:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R1', data_type='all', value='-11.647384', time_stamp='20181030 21:00:00'))
+db.session.add(SensorData(sensor_name='s9102', component_name='R2', data_type='all', value='13.7', time_stamp='20181030 21:00:00')) 
 
-var lineChartData3 = [
-    {now:'20180920 0:00:00', R1:-10.001491, R2:21.1},
-    {now:'20180920 1:00:00', R1:-9.893008, R2:21.3},
-    {now:'20180920 2:00:00', R1:-10.001491, R2:20.7},
-    {now:'20180920 3:00:00', R1:-9.893008, R2:21.1},
-    {now:'20180920 4:00:00', R1:-10.023185, R2:21.1},
-    {now:'20180920 5:00:00', R1:-10.088263, R2:20.5},
-    {now:'20180920 6:00:00', R1:-10.023185, R2:20.9},
-    {now:'20180920 7:00:00', R1:-9.914706, R2:20.9},
-    {now:'20180920 8:00:00', R1:-9.979796, R2:22.1},
-    {now:'20180920 9:00:00', R1:-9.893008, R2:23.4},
-    {now:'20180920 10:00:00', R1:-9.806206, R2:25.8},
-    {now:'20180920 11:00:00', R1:-9.936403, R2:26.8},
-    {now:'20180920 12:00:00', R1:-9.914706, R2:28.8},
-    {now:'20180920 13:00:00', R1:-9.71939, R2:30.5},
-    {now:'20180920 14:00:00', R1:-9.784503, R2:30.3},
-    {now:'20180920 15:00:00', R1:-9.285114, R2:35.7},
-    {now:'20180920 16:00:00', R1:-8.89398, R2:38.8},
-    {now:'20180920 17:00:00', R1:-9.524007, R2:35.8},
-    {now:'20180920 18:00:00', R1:-9.393714, R2:35},
-    {now:'20180920 19:00:00', R1:-10.153333, R2:26.9},
-    {now:'20180920 20:00:00', R1:-10.261767, R2:24.4},
-    {now:'20180920 21:00:00', R1:-10.218396, R2:23.6},
-    {now:'20180920 22:00:00', R1:-10.109954, R2:23},
-    {now:'20180920 23:00:00', R1:-10.109954, R2:22.7},
-    {now:'20180921 0:00:00', R1:-9.979796, R2:22},
-    {now:'20180921 1:00:00', R1:-9.979796, R2:21.6},
-    {now:'20180921 2:00:00', R1:-10.131644, R2:21.6},
-    {now:'20180921 3:00:00', R1:-10.066571, R2:21.8},
-    {now:'20180921 4:00:00', R1:-10.023185, R2:19.9},
-    {now:'20180921 5:00:00', R1:-9.979796, R2:19.2},
-    {now:'20180921 6:00:00', R1:-9.893008, R2:19.3},
-    {now:'20180921 7:00:00', R1:-9.871308, R2:19.9},
-    {now:'20180921 8:00:00', R1:-9.979796, R2:20.5},
-    {now:'20180921 9:00:00', R1:-9.914706, R2:22},
-    {now:'20180921 10:00:00', R1:-9.784503, R2:24.2},
-    {now:'20180921 11:00:00', R1:-10.023185, R2:24.7},
-    {now:'20180921 12:00:00', R1:-10.283451, R2:25.2},
-    {now:'20180921 13:00:00', R1:-9.9581, R2:28.5},
-    {now:'20180921 14:00:00', R1:-10.044879, R2:27.3},
-    {now:'20180921 15:00:00', R1:-9.849608, R2:27.6},
-    {now:'20180921 16:00:00', R1:-9.502294, R2:31.5},
-    {now:'20180921 17:00:00', R1:-9.71939, R2:28.8},
-    {now:'20180921 18:00:00', R1:-9.871308, R2:27.7},
-    {now:'20180921 19:00:00', R1:-10.37018, R2:23.3},
-    {now:'20180921 20:00:00', R1:-10.153333, R2:21.9},
-    {now:'20180921 21:00:00', R1:-10.175022, R2:21},
-    {now:'20180921 22:00:00', R1:-10.109954, R2:20.8},
-    {now:'20180921 23:00:00', R1:-10.088263, R2:20.7},
-    {now:'20180922 0:00:00', R1:-9.979796, R2:20.6},
-    {now:'20180922 1:00:00', R1:-10.196709, R2:20.4},
-    {now:'20180922 2:00:00', R1:-10.131644, R2:20.4},
-    {now:'20180922 3:00:00', R1:-10.088263, R2:20.4},
-    {now:'20180922 4:00:00', R1:-10.131644, R2:20.2},
-    {now:'20180922 5:00:00', R1:-10.066571, R2:20.1},
-    {now:'20180922 6:00:00', R1:-10.088263, R2:20.1},
-    {now:'20180922 7:00:00', R1:-10.001491, R2:19.4},
-    {now:'20180922 8:00:00', R1:-10.001491, R2:18.7},
-    {now:'20180922 9:00:00', R1:-10.153333, R2:18.2},
-    {now:'20180922 10:00:00', R1:-10.218396, R2:18.8},
-    {now:'20180922 11:00:00', R1:-10.196709, R2:19.5},
-    {now:'20180922 12:00:00', R1:-10.175022, R2:19.4},
-    {now:'20180922 13:00:00', R1:-10.001491, R2:22.6},
-    {now:'20180922 14:00:00', R1:-10.305135, R2:23.3},
-    {now:'20180922 15:00:00', R1:-10.066571, R2:23.3},
-    {now:'20180922 16:00:00', R1:-10.175022, R2:25},
-    {now:'20180922 17:00:00', R1:-10.088263, R2:25.1},
-    {now:'20180922 18:00:00', R1:-10.175022, R2:25.5},
-    {now:'20180922 19:00:00', R1:-10.37018, R2:21.1},
-    {now:'20180922 20:00:00', R1:-10.413539, R2:19.5},
-    {now:'20180922 21:00:00', R1:-10.413539, R2:18.9},
-    {now:'20180922 22:00:00', R1:-10.326817, R2:18.5},
-    {now:'20180922 23:00:00', R1:-10.37018, R2:18.3},
-    {now:'20180923 0:00:00', R1:-10.326817, R2:17.9},
-    {now:'20180923 1:00:00', R1:-10.196709, R2:18},
-    {now:'20180923 2:00:00', R1:-10.175022, R2:18.4},
-    {now:'20180923 3:00:00', R1:-10.196709, R2:18.4},
-    {now:'20180923 4:00:00', R1:-10.326817, R2:18.5},
-    {now:'20180923 5:00:00', R1:-10.153333, R2:18.8},
-    {now:'20180923 6:00:00', R1:-10.283451, R2:18.9},
-    {now:'20180923 7:00:00', R1:-10.044879, R2:19},
-    {now:'20180923 8:00:00', R1:-10.109954, R2:20.4},
-    {now:'20180923 9:00:00', R1:-10.218396, R2:21.4},
-    {now:'20180923 10:00:00', R1:-10.001491, R2:23},
-    {now:'20180923 11:00:00', R1:-9.979796, R2:27.1},
-    {now:'20180923 12:00:00', R1:-9.893008, R2:28.9},
-    {now:'20181005 9:00:00', R1:-12.74999, R2:15.7},
-    {now:'20181005 10:00:00', R1:-12.68522, R2:17},
-    {now:'20181005 14:00:00', R1:-12.512463, R2:23.4},
-    {now:'20181005 15:00:00', R1:-12.426065, R2:26.4},
-    {now:'20181006 19:00:00', R1:-12.814753, R2:18.4},
-    {now:'20181006 20:00:00', R1:-12.706811, R2:18.1},
-    {now:'20181006 21:00:00', R1:-12.771579, R2:17.7},
-    {now:'20181007 11:00:00', R1:-12.534061, R2:20.1},
-    {now:'20181010 3:00:00', R1:-12.901091, R2:13.1},
-    {now:'20181010 17:00:00', R1:-12.663628, R2:16.1},
-    {now:'20181015 20:00:00', R1:-12.663628, R2:13.7},
-    {now:'20181015 21:00:00', R1:-12.642036, R2:13.6},
-    {now:'20181015 22:00:00', R1:-12.771579, R2:13.6},
-    {now:'20181015 23:00:00', R1:-12.68522, R2:13.5},
-    {now:'20181016 0:00:00', R1:-12.663628, R2:13.5},
-    {now:'20181016 15:00:00', R1:-12.706811, R2:18.6},
-    {now:'20181019 1:00:00', R1:-12.598848, R2:13.4},
-    {now:'20181021 12:00:00', R1:-12.642036, R2:19.2},
-    {now:'20181021 15:00:00', R1:-12.620442, R2:20.2},
-    {now:'20181021 16:00:00', R1:-12.642036, R2:20.2},
-    {now:'20181022 0:00:00', R1:-12.987417, R2:13.6},
-    {now:'20181026 6:00:00', R1:-12.793166, R2:14.7},
-    {now:'20181026 7:00:00', R1:-12.814753, R2:14.6},
-    {now:'20181026 8:00:00', R1:-12.793166, R2:14.8},
-    {now:'20181026 10:00:00', R1:-12.145177, R2:18.9},
-    {now:'20181026 11:00:00', R1:-12.68522, R2:18.5},
-    {now:'20181026 12:00:00', R1:-12.555657, R2:20.1},
-    {now:'20181026 13:00:00', R1:-12.620442, R2:19.8},
-    {now:'20181026 14:00:00', R1:-12.706811, R2:19.3},
-    {now:'20181026 16:00:00', R1:-12.793166, R2:18.5},
-    {now:'20181026 17:00:00', R1:-12.901091, R2:17},
-    {now:'20181026 18:00:00', R1:-12.814753, R2:16.4},
-    {now:'20181026 19:00:00', R1:-12.814753, R2:16},
-    {now:'20181026 20:00:00', R1:-12.728401, R2:15.8},
-    {now:'20181026 21:00:00', R1:-12.68522, R2:15.5},
-    {now:'20181026 22:00:00', R1:-12.642036, R2:15.4},
-    {now:'20181026 23:00:00', R1:-12.836339, R2:15.2},
-    {now:'20181027 0:00:00', R1:-12.814753, R2:15.2},
-    {now:'20181027 18:00:00', R1:-12.74999, R2:19.1},
-    {now:'20181027 22:00:00', R1:-12.879508, R2:16.3},
-    {now:'20181027 23:00:00', R1:-12.771579, R2:15.9},
-    {now:'20181028 3:00:00', R1:-12.944256, R2:15.4},
-    {now:'20181028 4:00:00', R1:-12.793166, R2:15.2},
-    {now:'20181028 5:00:00', R1:-12.793166, R2:15},
-    {now:'20181028 6:00:00', R1:-12.879508, R2:14.8},
-    {now:'20181028 7:00:00', R1:-12.965837, R2:14.6},
-    {now:'20181028 8:00:00', R1:-12.944256, R2:14.6},
-    {now:'20181028 9:00:00', R1:-12.836339, R2:14.9},
-    {now:'20181028 10:00:00', R1:-12.857924, R2:15.6},
-    {now:'20181028 11:00:00', R1:-12.534061, R2:18.4},
-    {now:'20181028 12:00:00', R1:-12.555657, R2:17.9},
-    {now:'20181028 13:00:00', R1:-12.836339, R2:19.7},
-    {now:'20181028 14:00:00', R1:-12.620442, R2:22.6},
-    {now:'20181028 17:00:00', R1:-12.728401, R2:20.9},
-    {now:'20181028 18:00:00', R1:-12.814753, R2:18.4},
-    {now:'20181028 20:00:00', R1:-12.814753, R2:16.8},
-    {now:'20181028 22:00:00', R1:-13.030574, R2:14.4},
-    {now:'20181029 1:00:00', R1:-12.901091, R2:13.3},
-    {now:'20181029 2:00:00', R1:-12.857924, R2:13.6},
-    {now:'20181029 5:00:00', R1:-12.814753, R2:13.9},
-    {now:'20181029 6:00:00', R1:-12.814753, R2:14},
-    {now:'20181029 7:00:00', R1:-12.74999, R2:14.2},
-    {now:'20181029 8:00:00', R1:-12.598848, R2:14.5},
-    {now:'20181029 10:00:00', R1:-12.74999, R2:15.6},
-    {now:'20181029 15:00:00', R1:-12.857924, R2:17.4},
-    {now:'20181029 20:00:00', R1:-12.987417, R2:13.3},
-    {now:'20181029 21:00:00', R1:-12.987417, R2:13.3},
-    {now:'20181030 4:00:00', R1:-12.771579, R2:13.6},
-    {now:'20181030 6:00:00', R1:-12.771579, R2:13.7},
-    {now:'20181030 7:00:00', R1:-12.771579, R2:13.3},
-    {now:'20181030 8:00:00', R1:-12.879508, R2:13.3},
-    {now:'20181030 14:00:00', R1:-12.598848, R2:18.5},
-    {now:'20181030 18:00:00', R1:-12.901091, R2:15.5},
-    {now:'20181030 21:00:00', R1:-12.965837, R2:13.6} 
-]
+S9103
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-10.001491', time_stamp='20180920 0:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='21.1', time_stamp='20180920 0:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-9.893008', time_stamp='20180920 1:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='21.3', time_stamp='20180920 1:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-10.001491', time_stamp='20180920 2:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='20.7', time_stamp='20180920 2:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-9.893008', time_stamp='20180920 3:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='21.1', time_stamp='20180920 3:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-10.023185', time_stamp='20180920 4:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='21.1', time_stamp='20180920 4:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-10.088263', time_stamp='20180920 5:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='20.5', time_stamp='20180920 5:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-10.023185', time_stamp='20180920 6:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='20.9', time_stamp='20180920 6:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-9.914706', time_stamp='20180920 7:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='20.9', time_stamp='20180920 7:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-9.979796', time_stamp='20180920 8:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='22.1', time_stamp='20180920 8:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-9.893008', time_stamp='20180920 9:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='23.4', time_stamp='20180920 9:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-9.806206', time_stamp='20180920 10:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='25.8', time_stamp='20180920 10:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-9.936403', time_stamp='20180920 11:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='26.8', time_stamp='20180920 11:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-9.914706', time_stamp='20180920 12:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='28.8', time_stamp='20180920 12:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-9.71939', time_stamp='20180920 13:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='30.5', time_stamp='20180920 13:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-9.784503', time_stamp='20180920 14:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='30.3', time_stamp='20180920 14:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-9.285114', time_stamp='20180920 15:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='35.7', time_stamp='20180920 15:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-8.89398', time_stamp='20180920 16:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='38.8', time_stamp='20180920 16:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-9.524007', time_stamp='20180920 17:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='35.8', time_stamp='20180920 17:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-9.393714', time_stamp='20180920 18:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='35', time_stamp='20180920 18:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-10.153333', time_stamp='20180920 19:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='26.9', time_stamp='20180920 19:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-10.261767', time_stamp='20180920 20:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='24.4', time_stamp='20180920 20:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-10.218396', time_stamp='20180920 21:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='23.6', time_stamp='20180920 21:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-10.109954', time_stamp='20180920 22:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='23', time_stamp='20180920 22:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-10.109954', time_stamp='20180920 23:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='22.7', time_stamp='20180920 23:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-9.979796', time_stamp='20180921 0:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='22', time_stamp='20180921 0:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-9.979796', time_stamp='20180921 1:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='21.6', time_stamp='20180921 1:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-10.131644', time_stamp='20180921 2:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='21.6', time_stamp='20180921 2:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-10.066571', time_stamp='20180921 3:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='21.8', time_stamp='20180921 3:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-10.023185', time_stamp='20180921 4:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='19.9', time_stamp='20180921 4:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-9.979796', time_stamp='20180921 5:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='19.2', time_stamp='20180921 5:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-9.893008', time_stamp='20180921 6:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='19.3', time_stamp='20180921 6:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-9.871308', time_stamp='20180921 7:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='19.9', time_stamp='20180921 7:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-9.979796', time_stamp='20180921 8:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='20.5', time_stamp='20180921 8:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-9.914706', time_stamp='20180921 9:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='22', time_stamp='20180921 9:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-9.784503', time_stamp='20180921 10:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='24.2', time_stamp='20180921 10:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-10.023185', time_stamp='20180921 11:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='24.7', time_stamp='20180921 11:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-10.283451', time_stamp='20180921 12:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='25.2', time_stamp='20180921 12:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-9.9581', time_stamp='20180921 13:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='28.5', time_stamp='20180921 13:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-10.044879', time_stamp='20180921 14:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='27.3', time_stamp='20180921 14:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-9.849608', time_stamp='20180921 15:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='27.6', time_stamp='20180921 15:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-9.502294', time_stamp='20180921 16:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='31.5', time_stamp='20180921 16:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-9.71939', time_stamp='20180921 17:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='28.8', time_stamp='20180921 17:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-9.871308', time_stamp='20180921 18:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='27.7', time_stamp='20180921 18:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-10.37018', time_stamp='20180921 19:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='23.3', time_stamp='20180921 19:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-10.153333', time_stamp='20180921 20:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='21.9', time_stamp='20180921 20:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-10.175022', time_stamp='20180921 21:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='21', time_stamp='20180921 21:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-10.109954', time_stamp='20180921 22:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='20.8', time_stamp='20180921 22:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-10.088263', time_stamp='20180921 23:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='20.7', time_stamp='20180921 23:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-9.979796', time_stamp='20180922 0:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='20.6', time_stamp='20180922 0:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-10.196709', time_stamp='20180922 1:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='20.4', time_stamp='20180922 1:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-10.131644', time_stamp='20180922 2:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='20.4', time_stamp='20180922 2:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-10.088263', time_stamp='20180922 3:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='20.4', time_stamp='20180922 3:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-10.131644', time_stamp='20180922 4:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='20.2', time_stamp='20180922 4:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-10.066571', time_stamp='20180922 5:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='20.1', time_stamp='20180922 5:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-10.088263', time_stamp='20180922 6:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='20.1', time_stamp='20180922 6:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-10.001491', time_stamp='20180922 7:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='19.4', time_stamp='20180922 7:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-10.001491', time_stamp='20180922 8:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='18.7', time_stamp='20180922 8:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-10.153333', time_stamp='20180922 9:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='18.2', time_stamp='20180922 9:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-10.218396', time_stamp='20180922 10:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='18.8', time_stamp='20180922 10:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-10.196709', time_stamp='20180922 11:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='19.5', time_stamp='20180922 11:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-10.175022', time_stamp='20180922 12:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='19.4', time_stamp='20180922 12:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-10.001491', time_stamp='20180922 13:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='22.6', time_stamp='20180922 13:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-10.305135', time_stamp='20180922 14:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='23.3', time_stamp='20180922 14:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-10.066571', time_stamp='20180922 15:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='23.3', time_stamp='20180922 15:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-10.175022', time_stamp='20180922 16:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='25', time_stamp='20180922 16:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-10.088263', time_stamp='20180922 17:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='25.1', time_stamp='20180922 17:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-10.175022', time_stamp='20180922 18:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='25.5', time_stamp='20180922 18:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-10.37018', time_stamp='20180922 19:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='21.1', time_stamp='20180922 19:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-10.413539', time_stamp='20180922 20:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='19.5', time_stamp='20180922 20:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-10.413539', time_stamp='20180922 21:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='18.9', time_stamp='20180922 21:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-10.326817', time_stamp='20180922 22:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='18.5', time_stamp='20180922 22:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-10.37018', time_stamp='20180922 23:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='18.3', time_stamp='20180922 23:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-10.326817', time_stamp='20180923 0:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='17.9', time_stamp='20180923 0:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-10.196709', time_stamp='20180923 1:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='18', time_stamp='20180923 1:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-10.175022', time_stamp='20180923 2:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='18.4', time_stamp='20180923 2:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-10.196709', time_stamp='20180923 3:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='18.4', time_stamp='20180923 3:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-10.326817', time_stamp='20180923 4:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='18.5', time_stamp='20180923 4:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-10.153333', time_stamp='20180923 5:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='18.8', time_stamp='20180923 5:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-10.283451', time_stamp='20180923 6:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='18.9', time_stamp='20180923 6:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-10.044879', time_stamp='20180923 7:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='19', time_stamp='20180923 7:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-10.109954', time_stamp='20180923 8:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='20.4', time_stamp='20180923 8:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-10.218396', time_stamp='20180923 9:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='21.4', time_stamp='20180923 9:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-10.001491', time_stamp='20180923 10:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='23', time_stamp='20180923 10:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-9.979796', time_stamp='20180923 11:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='27.1', time_stamp='20180923 11:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-9.893008', time_stamp='20180923 12:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='28.9', time_stamp='20180923 12:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-12.74999', time_stamp='20181005 9:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='15.7', time_stamp='20181005 9:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-12.68522', time_stamp='20181005 10:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='17', time_stamp='20181005 10:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-12.512463', time_stamp='20181005 14:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='23.4', time_stamp='20181005 14:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-12.426065', time_stamp='20181005 15:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='26.4', time_stamp='20181005 15:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-12.814753', time_stamp='20181006 19:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='18.4', time_stamp='20181006 19:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-12.706811', time_stamp='20181006 20:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='18.1', time_stamp='20181006 20:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-12.771579', time_stamp='20181006 21:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='17.7', time_stamp='20181006 21:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-12.534061', time_stamp='20181007 11:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='20.1', time_stamp='20181007 11:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-12.901091', time_stamp='20181010 3:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='13.1', time_stamp='20181010 3:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-12.663628', time_stamp='20181010 17:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='16.1', time_stamp='20181010 17:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-12.663628', time_stamp='20181015 20:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='13.7', time_stamp='20181015 20:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-12.642036', time_stamp='20181015 21:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='13.6', time_stamp='20181015 21:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-12.771579', time_stamp='20181015 22:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='13.6', time_stamp='20181015 22:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-12.68522', time_stamp='20181015 23:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='13.5', time_stamp='20181015 23:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-12.663628', time_stamp='20181016 0:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='13.5', time_stamp='20181016 0:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-12.706811', time_stamp='20181016 15:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='18.6', time_stamp='20181016 15:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-12.598848', time_stamp='20181019 1:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='13.4', time_stamp='20181019 1:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-12.642036', time_stamp='20181021 12:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='19.2', time_stamp='20181021 12:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-12.620442', time_stamp='20181021 15:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='20.2', time_stamp='20181021 15:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-12.642036', time_stamp='20181021 16:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='20.2', time_stamp='20181021 16:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-12.987417', time_stamp='20181022 0:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='13.6', time_stamp='20181022 0:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-12.793166', time_stamp='20181026 6:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='14.7', time_stamp='20181026 6:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-12.814753', time_stamp='20181026 7:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='14.6', time_stamp='20181026 7:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-12.793166', time_stamp='20181026 8:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='14.8', time_stamp='20181026 8:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-12.145177', time_stamp='20181026 10:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='18.9', time_stamp='20181026 10:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-12.68522', time_stamp='20181026 11:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='18.5', time_stamp='20181026 11:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-12.555657', time_stamp='20181026 12:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='20.1', time_stamp='20181026 12:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-12.620442', time_stamp='20181026 13:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='19.8', time_stamp='20181026 13:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-12.706811', time_stamp='20181026 14:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='19.3', time_stamp='20181026 14:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-12.793166', time_stamp='20181026 16:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='18.5', time_stamp='20181026 16:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-12.901091', time_stamp='20181026 17:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='17', time_stamp='20181026 17:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-12.814753', time_stamp='20181026 18:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='16.4', time_stamp='20181026 18:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-12.814753', time_stamp='20181026 19:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='16', time_stamp='20181026 19:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-12.728401', time_stamp='20181026 20:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='15.8', time_stamp='20181026 20:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-12.68522', time_stamp='20181026 21:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='15.5', time_stamp='20181026 21:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-12.642036', time_stamp='20181026 22:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='15.4', time_stamp='20181026 22:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-12.836339', time_stamp='20181026 23:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='15.2', time_stamp='20181026 23:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-12.814753', time_stamp='20181027 0:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='15.2', time_stamp='20181027 0:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-12.74999', time_stamp='20181027 18:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='19.1', time_stamp='20181027 18:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-12.879508', time_stamp='20181027 22:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='16.3', time_stamp='20181027 22:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-12.771579', time_stamp='20181027 23:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='15.9', time_stamp='20181027 23:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-12.944256', time_stamp='20181028 3:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='15.4', time_stamp='20181028 3:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-12.793166', time_stamp='20181028 4:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='15.2', time_stamp='20181028 4:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-12.793166', time_stamp='20181028 5:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='15', time_stamp='20181028 5:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-12.879508', time_stamp='20181028 6:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='14.8', time_stamp='20181028 6:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-12.965837', time_stamp='20181028 7:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='14.6', time_stamp='20181028 7:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-12.944256', time_stamp='20181028 8:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='14.6', time_stamp='20181028 8:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-12.836339', time_stamp='20181028 9:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='14.9', time_stamp='20181028 9:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-12.857924', time_stamp='20181028 10:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='15.6', time_stamp='20181028 10:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-12.534061', time_stamp='20181028 11:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='18.4', time_stamp='20181028 11:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-12.555657', time_stamp='20181028 12:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='17.9', time_stamp='20181028 12:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-12.836339', time_stamp='20181028 13:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='19.7', time_stamp='20181028 13:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-12.620442', time_stamp='20181028 14:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='22.6', time_stamp='20181028 14:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-12.728401', time_stamp='20181028 17:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='20.9', time_stamp='20181028 17:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-12.814753', time_stamp='20181028 18:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='18.4', time_stamp='20181028 18:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-12.814753', time_stamp='20181028 20:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='16.8', time_stamp='20181028 20:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-13.030574', time_stamp='20181028 22:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='14.4', time_stamp='20181028 22:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-12.901091', time_stamp='20181029 1:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='13.3', time_stamp='20181029 1:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-12.857924', time_stamp='20181029 2:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='13.6', time_stamp='20181029 2:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-12.814753', time_stamp='20181029 5:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='13.9', time_stamp='20181029 5:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-12.814753', time_stamp='20181029 6:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='14', time_stamp='20181029 6:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-12.74999', time_stamp='20181029 7:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='14.2', time_stamp='20181029 7:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-12.598848', time_stamp='20181029 8:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='14.5', time_stamp='20181029 8:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-12.74999', time_stamp='20181029 10:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='15.6', time_stamp='20181029 10:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-12.857924', time_stamp='20181029 15:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='17.4', time_stamp='20181029 15:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-12.987417', time_stamp='20181029 20:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='13.3', time_stamp='20181029 20:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-12.987417', time_stamp='20181029 21:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='13.3', time_stamp='20181029 21:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-12.771579', time_stamp='20181030 4:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='13.6', time_stamp='20181030 4:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-12.771579', time_stamp='20181030 6:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='13.7', time_stamp='20181030 6:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-12.771579', time_stamp='20181030 7:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='13.3', time_stamp='20181030 7:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-12.879508', time_stamp='20181030 8:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='13.3', time_stamp='20181030 8:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-12.598848', time_stamp='20181030 14:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='18.5', time_stamp='20181030 14:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-12.901091', time_stamp='20181030 18:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='15.5', time_stamp='20181030 18:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R1', data_type='all', value='-12.965837', time_stamp='20181030 21:00:00'))
+db.session.add(SensorData(sensor_name='s9103', component_name='R2', data_type='all', value='13.6', time_stamp='20181030 21:00:00')) 
